@@ -26,15 +26,16 @@ Original author(s) unknown.
 The original version of these Mayor changes was made by Alvicate.  
 Since their last release of those works, the game has been updated and the modded file was no longer compatible. This project is to access the decrypted version of those changes, merge them with compatibile current game files, and re-encrypt them as the game requires.
 
-The current password (possibly only for the public beta branch, to be tested soon) is:  
+The current password for the public beta branch is:  
 -167547859615307867291835083137-167547859615307867291835083137334454FADSFASDF45345
 
-Historic values include:  
--97961337-1138788515-358272088-97961337-1138788515-358272088334454FADSFASDF45345  
-from Alvicate (although this does not decrypt the first modded file encounted when starting this project)  
-and:  
+The current password for the main Steam branch is:  
+-97961337-1138788515-358272088-97961337-1138788515-358272088334454FADSFASDF45345
+
+Historically the password was:  
 -2099717824-430703793638994083  
-from https://github.com/ash47/TheyAreBillionsModKit
+from https://github.com/ash47/TheyAreBillionsModKit  
+Although this also does not decrypt the first public modded instance of ZXRules.dat encounted when starting this project.
 
 ----
 
