@@ -15,8 +15,8 @@ Or have manually backed up your original file before replacing it, keeping in mi
 
 # List of Modded Mayors
 
-Spreadsheet obtained from: 
- https://docs.google.com/spreadsheets/d/1ZpQz5TmhUMwM26UkHeM6yMczYDfG0VEe0uoJPj4sxcg/edit#gid=0
+Spreadsheet obtained from:  
+https://docs.google.com/spreadsheets/d/1ZpQz5TmhUMwM26UkHeM6yMczYDfG0VEe0uoJPj4sxcg/edit#gid=0  
 Original author(s) unknown.
 
 ----
@@ -26,23 +26,23 @@ Original author(s) unknown.
 The original version of these Mayor changes was made by Alvicate.  
 Since their last release of those works, the game has been updated and the modded file was no longer compatible. This project is to access the decrypted version of those changes, merge them with compatibile current game files, and re-encrypt them as the game requires.
 
-The current password (possibly only for the public beta branch, to be tested soon) is:
+The current password (possibly only for the public beta branch, to be tested soon) is:  
 -167547859615307867291835083137-167547859615307867291835083137334454FADSFASDF45345
 
-Historic values include:
--97961337-1138788515-358272088-97961337-1138788515-358272088334454FADSFASDF45345
-from Alvicate (although this does not decrypt the first modded file encounted when starting this project)
-and:
--2099717824-430703793638994083
+Historic values include:  
+-97961337-1138788515-358272088-97961337-1138788515-358272088334454FADSFASDF45345  
+from Alvicate (although this does not decrypt the first modded file encounted when starting this project)  
+and:  
+-2099717824-430703793638994083  
 from https://github.com/ash47/TheyAreBillionsModKit
 
 ----
 
 Compatible 7-Zip settings are:
 
-Archive format:		zip
-Compression level:	Ultra
-Compression method:	Deflate, not Deflate64
-Dictionary size:	32 KB
-Word size:			128
-Encryption method:	ZipCrypto
+Archive format:		zip  
+Compression level:	Ultra  
+Compression method:	Deflate, not Deflate64  
+Dictionary size:	32 KB  
+Word size:			128  
+Encryption method:	ZipCrypto  
