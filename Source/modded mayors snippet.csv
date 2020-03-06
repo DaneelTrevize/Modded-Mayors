@@ -1,0 +1,241 @@
+ID,Active,Custom,Level,Gender,ExtraGold,ExtraWood,ExtraStone,ExtraIron,ExtraOil,IDBonusTechnologies,IDBonusEntities,Mods,
+Mayor_001,Y,,1,Male,,,,,,,,"Ranger BuildingTimeFactor -90%
+Ranger Life -90%
+Ranger GoldCost -70%",
+Mayor_002,Y,,1,Female,,,,,,,,"Sniper BuildingTimeFactor -70%
+Sniper Life -90%
+Sniper GoldCost -50%",
+Mayor_003,Y,,1,Male,,,,,,,,"Soldier BuildingTimeFactor -80%
+Soldier Life -90%
+Soldier GoldCost -60%",
+Mayor_004,Y,,1,Female,-500,,,,,,,"CommandCenter GoldGen +100",
+Mayor_005,Y,,1,Male,,,,,,,,"Sawmill WoodGen +5
+Sawmill EnergyNeeded +150%",
+Mayor_006,Y,,1,Female,,,,,,,,"Quarry StoneGen +1
+Quarry IronGen +1
+Quarry EnergyNeeded +50%",
+Mayor_007,Y,,1,Male,,,,,,,,"CommandCenter EnergySupply +50
+CommandCenter FoodSupply +50",
+Mayor_008,Y,,1,Female,,,,,,,,"Ranger Life +200%
+Ranger GoldCost +50%",
+Mayor_009,Y,,1,Male,,,,,,,,"Soldier Life +300%
+Soldier GoldCost +60%",
+Mayor_010,Y,,1,Female,,,,,,,,"Sniper Life +100%
+Sniper GoldCost +70%",
+Mayor_011,Y,,1,Male,1000,,20,,,,,,
+Mayor_012,Y,,1,Female,2000,20,20,,,,,,
+Mayor_013,Y,,1,Male,,,,,,,,"CommandCenter ResourcesStorage +200
+Farm ResourceCollectionCellValue -10%",
+Mayor_014,Y,,1,Female,,,,,,,,"CommandCenter ResourcesStorage +50",
+Mayor_015,Y,,1,Male,,,,,,,,"Sniper Life +10%",
+Mayor_016,Y,,1,Female,,,,,,,,"Ranger Life +20%",
+Mayor_017,Y,,1,Male,,,,,,,,"Soldier Life +30%",
+Mayor_018,Y,,1,Female,,,,,,,,"CommandCenter GoldGen +50
+CommandCenter FoodSupply +50",
+Mayor_019,Y,,1,Male,,,,,,,,"Technology GoldCost -20%",
+Mayor_020,Y,,1,Female,,,,,,,"WoodWorkshop",,
+Mayor_021,Y,,1,Male,,,,,,,,"Soldier RunSpeed +30%
+Soldier IronCost +1",
+Mayor_022,Y,,1,Female,,,,,,,,"SniperAttack ActionRange +3
+SniperAttackVeteran ActionRange +3
+Sniper IronCost +2",
+Mayor_023,Y,,1,Female,,,,,,,,"RangerAttack ActionRange +2
+RangerAttackVeteran ActionRange +2
+Ranger WoodCost +2",
+Mayor_024,Y,,2,Male,,,,,,,,"CommandCenter GoldGen +300
+Building EnergyNeeded +15%",
+Mayor_025,Y,,2,Female,,,,,,,,"Building EnergyNeeded -30%
+Farm ResourceCollectionCellValue -20%",
+Mayor_026,Y,,2,Male,,,,,,,"StoneWorkshop",,
+Mayor_027,Y,,2,Female,,,,,,,,"WallStone Life +80%
+GateStone Life +80%
+WallStone GoldCost +200%
+WallStone StoneCost +100%
+GateStone GoldCost +200%
+GateStone StoneCost +100%",
+Mayor_028,Y,,2,Male,,,,,,,,"WallWood GoldCost -100%
+WallWood WoodCost -100%
+WallWood Life -60%",
+Mayor_029,Y,,2,Female,,,,,,,,"ThanatosExtraAttack EffectRadius +150%
+SpitterAttack Damage +45
+SpitterAttack EffectRadius +200%
+Spitter Life +100%",
+Mayor_030,Y,,2,Male,,,,,,,,"TitanAttack EffectRadius +100%
+SpitterAttack Damage +45
+SpitterAttack EffectRadius +200%
+Spitter Life +100%",
+Mayor_031,Y,,2,Female,,,,,,,,"LuciferAttack EffectRadius +200%
+SpitterAttack Damage +45
+SpitterAttack EffectRadius +200%
+Spitter Life +100%",
+Mayor_032,Y,,3,Male,,,,,,,,"Thanatos RunSpeed +50%
+Thanatos OilGen -2",
+Mayor_033,Y,,3,Female,,,,,,,,"StoneHouse GoldGen +30%
+CottageHouse GoldGen -40%",
+Mayor_034,Y,,3,Male,,,,,,,,"Bank FactorGoldNearBuildings +131%
+Bank WoodGen -50",
+Mayor_200,Y,,3,Male,,,,,,,,"Soldier FoodNeeded -1
+Soldier IronCost +5",
+Mayor_201,Y,,3,Female,,,,,,,,"EnergyWoodTower EnergyTransferRadius +2
+EnergyWoodTower GoldGen -5",
+Mayor_202,Y,,3,Male,,,,,,,,"Sniper RunSpeed +50%
+Sniper GoldGen -5",
+Mayor_203,Y,,3,Female,,,,,,,"AdvancedUnitCenter (2)
+OilPlatform (2)",,
+Mayor_204,Y,,3,Male,,,,,,,"AdvancedFarm (5)",,
+Mayor_205,Y,,3,Female,,,,,,,"Foundry",,
+Mayor_206,Y,,4,Male,,,,,,,,"StoneHouse GoldGen +40%
+StoneHouse WorkersSupply +2
+StoneHouse EnergyNeeded +50%",
+Mayor_207,Y,,4,Female,,,,,,,,"CommandCenter GoldGen +1000",
+Mayor_208,Y,,4,Male,,,,,,,,"Structure BuildingTimeFactor -25%
+Building EnergyNeeded -20%
+Structure GoldCost +15%",
+Mayor_209,Y,,4,Female,,,,,,"TechExecutor
+TechTitan",,,
+Mayor_210,Y,,4,Male,,,,,,,,"OilPlatform OilGen +25%
+OilPlatform GoldGen -20",
+Mayor_211,Y,,4,Female,,,,,,,,"PowerPlant EnergySupply +35%
+PowerPlant GoldGen -30",
+Mayor_212,Y,,4,Male,,,,,,,,"AdvancedFarm ResourceCollectionCellValue +30%
+AdvancedFarm OilGen -1",
+Mayor_213,Y,,4,Female,,,,,,,,"Building DeffensesLife +35%",
+Mayor_214,Y,,4,Male,,,,,,,,"ThanatosExtraAttack Damage +50%",
+Mayor_215,Y,,4,Female,,,,,,,,"TitanAttack Damage +50%",
+Mayor_216,Y,,4,Male,,,,,,,,"Human LifeRegenFactor +100%
+CommandCenter GoldGen -500",
+Mayor_217,Y,,4,Female,,,,,,,,"WareHouse ResourcesStorage +75
+WareHouse GoldGen -100%",
+Mayor_218,Y,,4,Male,,,,,,,,"Quarry ResourceCollectionCellValue +50%
+AdvancedQuarry ResourceCollectionCellValue +50%
+Quarry GoldGen -5
+AdvancedQuarry GoldGen -10",
+Mayor_219,Y,,4,Female,,,,,,,,"WallStone Life +200%
+GateStone Life +200%
+WatchTowerStone Life +200%
+WatchTowerStone RangeBonus +3
+ZombieGiant Life +200%
+ZombieStrongA Life +500%
+ZombieDressedA Life +100%",
+Mayor_220,Y,,4,Male,,,,,,,,"Technology GoldCost -60%",
+Mayor_221,Y,,4,Female,,,,,,,,"Structure WorkersNeeded -75%
+StoneHouse WorkersSupply -3",
+Mayor_300,Y,,4,Male,,,,,,,,"LuciferAttack TimeAction -60%
+Lucifer OilGen -1",
+Mayor_301,Y,,2,Female,,,,,,,,"Dwelling GoldGen +10%",
+Mayor_302,Y,,3,Male,,,,,,,,"Dwelling GoldGen +20%
+Dwelling EnergyNeeded +20%",
+Mayor_303,Y,,1,Female,,,,,,,,"RangerAttack TimeAction -50%
+RangerAttack Damage +2
+RangerAttackVeteran TimeAction -60%
+RangerAttackVeteran Damage +3",
+Mayor_304,Y,,4,Male,,,,,,,,"ZombieGiantAttack Damage +160
+ZombieGiant Life +400%
+ZombieGiant RunSpeed +50%
+CommandCenter GoldGen +3000
+CommandCenter OilGen +30",
+Mayor_305,Y,,1,Female,,,,,,,,"CommandCenter GoldGen +800
+ZombieWeakA Life +100%
+ZombieWeakB Life +100%
+ZombieWeakC Life +100%",
+Mayor_306,Y,,2,Male,,,,,,,,"Human BuildingTimeFactor -30%
+ZombieDressedA Life +100%
+ZombieDressedA RunSpeed +50%",
+Mayor_307,Y,,3,Female,,,,,,,,"CommandCenter WatchRange +200
+ZombieStrongA Life +300%",
+Mayor_308,Y,,4,Male,,,,,,,,"Human FoodNeeded -100%
+Human BuildingTimeFactor -30%
+ZombieHarpy Life +250%
+ZombieHarpy RunSpeed +120%",
+Mayor_309,Y,,4,Female,,,,,,,,"AdvancedFarm ResourceCollectionCellValue +60%
+Farm ResourceCollectionCellValue +50%
+SpitterAttack Damage +60
+SpitterAttack EffectRadius +100%
+Spitter Life +100%",
+Mayor_310,Y,,1,Male,,,,,,"TechBallista
+TechLookoutTower",,,
+Mayor_311,,,1,Female,,,,,,,,,
+Mayor_312,,,1,Male,,,,,,"TechFarm
+TechSniper",,,
+Mayor_313,Y,,1,Female,,,,,,,,"Ranger RunSpeed +30%",
+Mayor_314,Y,,1,Male,,,,,,,,"Sniper RunSpeed +20%",
+Mayor_315,Y,,1,Female,,,,,,,,"TrapStakes Life +300%
+TrapStakes GoldCost +30",
+Mayor_316,Y,,1,Male,,,,,,,,"TrapBlades Life +300%
+TrapBlades GoldCost +100",
+Mayor_317,,,1,Female,,,,,,,,,
+Mayor_318,Y,,3,Male,,,,,,,,"ThanatosExtraAttack TimePreAction -50%
+ThanatosExtraAttack TimeLoad -60%
+Thanatos OilGen -2",
+Mayor_319,Y,,2,Female,,,,,,,,"Ranger WorkersNeeded +1
+Ranger FoodNeeded -1",
+Mayor_400,Y,,2,Male,,,,,,,,"Sniper WorkersNeeded +1
+Sniper FoodNeeded -1",
+Mayor_401,,,2,Female,,,,,,,,"Soldier WorkersNeeded +1
+Soldier FoodNeeded -1",
+Mayor_402,Y,,2,Male,,,,,,,"TheAcademy","CommandCenter GoldGen +500
+ZombieWeakA Life +465
+ZombieWeakB Life +465
+ZombieWeakC Life +465",
+Mayor_403,Y,,3,Female,,,,,,,,"Lucifer Life +200%
+Lucifer OilGen -1",
+Mayor_404,Y,,3,Male,,,,,,,,"Titan Life +50%
+Titan OilGen -1",
+Mayor_405,Y,,3,Female,,,,,,,,"Thanatos Life +100%
+Titan OilGen -1",
+Mayor_406,Y,,3,Male,,,,,,,,"TitanAttack TimeAction -30%
+Titan OilGen -2",
+Mayor_407,,,3,Female,,,,,,,,"Sniper FoodNeeded -1
+Sniper IronCost +10",
+Mayor_408,Y,,3,Male,,,,,,,"AdvancedQuarry(5)",,
+Mayor_409,Y,,3,Female,,,,,,,"PowerPlant(3)",,
+Mayor_410,,,3,Male,,,,,,,,"Powerplant WoodGen -5
+Powerplant GoldCost -400
+Powerplant WoodCost -30
+Powerplant StoneCost -20",
+Mayor_411,Y,,4,Female,,,,,,,,"LuciferAttack Damage +100%",
+Mayor_412,,,4,Male,,,,,,,,"StoneHouse GoldGen +10%",
+Mayor_413,,,4,Female,,,,,,,,"MillIron EnergySupply +20%",
+Mayor_414,,,4,Male,,,,,,,,"PowerPlant EnergySupply +20%",
+Mayor_415,,,4,Female,,,,,,,,"AdvancedFarm ResourceCollectionCellValue +20%",
+Mayor_416,,,4,Male,,,,,,,,"CommandCenter ResourcesStorage +200",
+Mayor_417,,,4,Female,,,,,,,,"Building DeffensesLife +20%",
+Mayor_418,,,4,Male,,,,,100,,,,
+Mayor_419,,,4,Female,,,,200,,,,,
+Aloooy6,,Y,4,Male,,,,,,,,"TitanAttack Damage +50%",
+Allgoodchase,,Y,2,Male,,,,,,,"Soldier(4)",,
+Akniffin,,Y,2,Male,,,,,,,"AdvancedQuarry",,
+Arlinkaaa,,Y,1,Female,,,,,,,,"WareHouse ResourcesStorage +25",
+Bdang,,Y,4,Male,,,,,,,"Bank",,
+Boshaw,,Y,4,Male,,,,,,,"Soldier(12)",,
+Caxinite,,Y,4,Male,,,,,,,,"Building EnergyNeeded -20%",
+Christian,,Y,2,Male,,,,,,"TechStoneWall",,,
+Darnold,,Y,2,Male,,,,,,,"Farm(2)",,
+Devlinhawkes,,Y,3,Male,,,,,,,"PowerPlant",,
+Dominic,,Y,2,Female,,,,,,,"Ranger(5)",,
+Elginblanchard,,Y,1,Male,,,,,,,,"Soldier BuildingTimeFactor -30%
+Soldier GoldCost -30%",
+Epchou,,Y,4,Male,,,,,,,,"Quarry ResourceCollectionCellValue +30%
+AdvancedQuarry ResourceCollectionCellValue +30%",
+Gameguy,,Y,2,Male,,,,,,,,"Ranger Life +30%
+Soldier Life +30%
+Sniper Life +30%",
+Garrettpearson,,Y,1,Male,,,,,,,,"Ranger WatchRange +1
+RangerAttack ActionRange +1
+RangerAttackVeteran ActionRange +1",
+Georgeedward,,Y,4,Male,,,,,,,"Sniper(7)",,
+Iang,,Y,3,Male,,,,,,,"AdvancedFarm",,
+Internalurge,,Y,3,Male,,,,,,,,"LuciferAttack Damage +50%",
+Jackcaster,,Y,2,Female,,,,,,,,"Human LifeRegenFactor +50%",
+Jonassonnr,,Y,3,Male,,,,,,,"Soldier(6)",,
+Jonathanhutsebau,,Y,2,Male,,,,,,,,"Sniper RunSpeed +50%",
+Kregarddayz,,Y,1,Male,,,,,,,,"Sawmill WorkersNeeded -2
+Quarry WorkersNeeded -2",
+Linkthefox,,Y,3,Male,,30,30,30,30,,,,
+Lolzman,,Y,1,Male,,,,,,,,"Technology GoldCost -10%",
+Zacmoore,,Y,1,Male,,20,20,,,,,,
+Saint,,Y,2,Female,,,,,,,,"Building EnergyNeeded -10%",
+Sweene,,Y,3,Male,,,,,,,"WallStone(20)
+GateStone(2)",,
+Visperas,,Y,3,Male,,,,,,,"Sniper(4)",,
+Williamamwermer,,Y,1,Male,,,,,,,,"CommandCenter FoodSupply +30",
