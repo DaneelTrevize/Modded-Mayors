@@ -1,0 +1,2588 @@
+        <Item>
+          <Simple value="Mayors" />
+          <Complex>
+            <Properties>
+              <Dictionary name="Cols" keyType="System.String, mscorlib" valueType="System.Int32, mscorlib">
+                <Items>
+                  <Item>
+                    <Simple value="ID" />
+                    <Simple value="0" />
+                  </Item>
+                  <Item>
+                    <Simple value="Active" />
+                    <Simple value="1" />
+                  </Item>
+                  <Item>
+                    <Simple value="Custom" />
+                    <Simple value="2" />
+                  </Item>
+                  <Item>
+                    <Simple value="Level" />
+                    <Simple value="3" />
+                  </Item>
+                  <Item>
+                    <Simple value="Gender" />
+                    <Simple value="4" />
+                  </Item>
+                  <Item>
+                    <Simple value="ExtraGold" />
+                    <Simple value="5" />
+                  </Item>
+                  <Item>
+                    <Simple value="ExtraWood" />
+                    <Simple value="6" />
+                  </Item>
+                  <Item>
+                    <Simple value="ExtraStone" />
+                    <Simple value="7" />
+                  </Item>
+                  <Item>
+                    <Simple value="ExtraIron" />
+                    <Simple value="8" />
+                  </Item>
+                  <Item>
+                    <Simple value="ExtraOil" />
+                    <Simple value="9" />
+                  </Item>
+                  <Item>
+                    <Simple value="IDBonusTechnologies" />
+                    <Simple value="10" />
+                  </Item>
+                  <Item>
+                    <Simple value="IDBonusEntities" />
+                    <Simple value="11" />
+                  </Item>
+                  <Item>
+                    <Simple value="Mods" />
+                    <Simple value="12" />
+                  </Item>
+                </Items>
+              </Dictionary>
+              <Dictionary name="Rows" keyType="System.String, mscorlib" valueType="System.String[], mscorlib">
+                <Items>
+                  <Item>
+                    <Simple value="Mayor_001" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_001" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Sniper" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_002" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_002" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Ranger(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_003" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_003" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="SoldierRegular" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_004" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_004" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="WallWood(10); GateWood(1)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_005" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_005" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="WatchTowerWood(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_006" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_006" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="ShockingTower" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_007" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_007" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TrapStakes(10)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_008" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_008" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="EnergyWoodTower" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_009" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_009" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="MillWood" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_010" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_010" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Ballista" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_011" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_011" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="LookoutTower" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_012" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_012" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Farm" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_013" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_013" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Quarry" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_014" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_014" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CommandCenter FoodSupply +10; CommandCenter GoldGen +10" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_015" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_015" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CommandCenter GoldGen +20" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_016" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_016" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="HunterCottage FoodSupply +3" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_017" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_017" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="FishermanCottage FoodSupply +3" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_018" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_018" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CommandCenter EnergySupply +20" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_019" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_019" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CommandCenter EnergyTransferRadius +4; CommandCenter WatchRange +4;" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_020" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_020" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Sawmill WoodGen+2" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_021" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_021" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CommandCenter WorkersSupply +12" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_022" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_022" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Simple value="1000" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_023" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_023" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Simple value="30" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_024" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_024" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Simple value="20" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_025" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_025" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="10" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_026" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_026" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Simple value="600" />
+                        <Simple value="10" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_027" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_027" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechLookoutTower" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_028" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_028" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechTrapStakes" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_029" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_029" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechWoodHouse" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_030" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_030" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechFarms" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_031" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_031" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechMarket" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_032" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_032" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechSniper" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_033" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_033" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechBallista" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_034" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_034" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="MillWood EnergySupply +20%; MillIron EnergySupply +20%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_200" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_200" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Lucifer" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_201" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_201" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Thanatos" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_202" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_202" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Sniper(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_203" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_203" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="SoldierRegular(3)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_204" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_204" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="WallStone(10); GateStone(1)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_205" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_205" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="WatchTowerStone(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_206" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_206" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="LookoutTower(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_207" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_207" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="MillIron" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_208" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_208" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Ballista(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_209" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_209" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="WallWood Life +20%; GateWood Life +20%;" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_210" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_210" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Sniper GoldGen -40%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_211" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_211" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="SoldierRegular GoldGen -60%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_212" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_212" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CommandCenter ResourcesStorage +50" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_213" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_213" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Structure FactorResourcesReturn = 75%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_214" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_214" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CommandCenter GoldGen +40" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_215" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_215" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Farm ResourceCollectionCellValue +20%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_216" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_216" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Human BuildingTimeFactor - 10%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_217" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_217" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Simple value="3000" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_218" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_218" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Simple value="120" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_219" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_219" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Simple value="80" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_220" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_220" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="40" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_221" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_221" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechShockingTower" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_300" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_300" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Titan" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_301" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_301" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="RadarTower" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_302" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_302" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Executor" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_303" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_303" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TrapBlades(20)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_304" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_304" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="ShockingTower(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_305" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_305" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="MillIron(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_306" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_306" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="OilPlatform" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_307" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_307" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CottageHouse WorkersSupply +1" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_308" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_308" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Lucifer GoldGen -30%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_309" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_309" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Thanatos GoldGen -30%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_310" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_310" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Structure BuildingTimeFactor -20%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_311" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_311" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CommandCenter GoldGen +80" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_312" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_312" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CommandCenter ResourcesStorage +100" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_313" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_313" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Simple value="150" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_314" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_314" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="80" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_315" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_315" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="40" />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_316" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_316" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechRadarTower" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_317" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_317" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechIronMill" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_318" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_318" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechExecutor" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_319" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_319" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="3" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechTrapBlades" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_400" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_400" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Titan(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_401" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_401" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Lucifer(3)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_402" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_402" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Thanatos(3)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_403" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_403" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="RadarTower(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_404" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_404" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Executor(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_405" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_405" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TrapBlades(40)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_406" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_406" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="ShockingTower(3)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_407" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_407" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CommandCenter GoldGen +120" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_408" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_408" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="OilPlatform OilGen +20%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_409" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_409" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="StoneHouse WorkersSupply +2" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_410" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_410" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="WallStone Life +20%; GateStone Life +20%;" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_411" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_411" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Titan GoldGen -30%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_412" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_412" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="StoneHouse GoldGen +10%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_413" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_413" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="MillIron EnergySupply +20%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_414" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_414" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="PowerPlant EnergySupply +20%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_415" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_415" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="AdvancedFarm ResourceCollectionCellValue +20%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_416" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_416" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CommandCenter ResourcesStorage +200" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_417" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_417" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Building DeffensesLife +20%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_418" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_418" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="100" />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Mayor_419" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Mayor_419" />
+                        <Simple value="Y" />
+                        <Null />
+                        <Simple value="4" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="200" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Aloooy6" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Aloooy6" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TitanAttack Damage +50%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Allgoodchase" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Allgoodchase" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="SoldierRegular(4)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Akniffin" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Akniffin" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="AdvancedQuarry" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Arlinkaaa" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Arlinkaaa" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="1" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="WareHouse ResourcesStorage +25" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Bdang" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Bdang" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Bank" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Boshaw" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Boshaw" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="SoldierRegular(12)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Caxinite" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Caxinite" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Building EnergyNeeded -20%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Christian" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Christian" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="TechStoneWall" />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Darnold" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Darnold" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Farm(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Devlinhawkes" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Devlinhawkes" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="PowerPlant" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Dominic" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Dominic" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Ranger(5)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Elginblanchard" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Elginblanchard" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="SoldierRegular BuildingTimeFactor -30%; SoldierRegular GoldCost -30%;" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Epchou" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Epchou" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Quarry ResourceCollectionCellValue +30%; AdvancedQuarry ResourceCollectionCellValue +30%;" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Gameguy" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Gameguy" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Ranger Life +30%; SoldierRegular Life +30%;Sniper Life +30%;" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Garrettpearson" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Garrettpearson" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Ranger WatchRange +1; RangerAttack ActionRange +1; RangerAttackVeteran ActionRange +1;" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Georgeedward" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Georgeedward" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="4" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Sniper(7)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Iang" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Iang" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="AdvancedFarm" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Internalurge" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Internalurge" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="LuciferAttack Damage +50%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Jackcaster" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Jackcaster" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Human LifeRegenFactor +50%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Jonassonnr" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Jonassonnr" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="SoldierRegular(6)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Jonathanhutsebau" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Jonathanhutsebau" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="2" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Sniper RunSpeed +50%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Kregarddayz" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Kregarddayz" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Sawmill WorkersNeeded -2; Quarry WorkersNeeded -2;" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Linkthefox" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Linkthefox" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Simple value="30" />
+                        <Simple value="30" />
+                        <Simple value="30" />
+                        <Simple value="30" />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Lolzman" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Lolzman" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Technology GoldCost -10%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Zacmoore" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Zacmoore" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Simple value="15" />
+                        <Simple value="25" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Saint" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Saint" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="2" />
+                        <Simple value="Female" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Building EnergyNeeded -10%" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Sweene" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Sweene" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="WallStone(20); GateStone(2)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Visperas" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Visperas" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="3" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="Sniper(4)" />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Williamamwermer" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Williamamwermer" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Simple value="CommandCenter FoodSupply +30" />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                  <Item>
+                    <Simple value="Ryanklee" />
+                    <SingleArray elementType="System.String, mscorlib">
+                      <Items>
+                        <Simple value="Ryanklee" />
+                        <Simple value="Y" />
+                        <Simple value="Y" />
+                        <Simple value="1" />
+                        <Simple value="Male" />
+                        <Null />
+                        <Simple value="20" />
+                        <Simple value="20" />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                        <Null />
+                      </Items>
+                    </SingleArray>
+                  </Item>
+                </Items>
+              </Dictionary>
+              <Simple name="Name" value="Mayors" />
+            </Properties>
+          </Complex>
+        </Item>
