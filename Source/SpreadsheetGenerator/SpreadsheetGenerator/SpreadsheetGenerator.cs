@@ -131,7 +131,17 @@ namespace SpreadsheetGenerator
                 string item = list[i].Trim();
 
                 item = item.Replace( "ZombieVenom", "Spitter" );
+                item = item.Replace( "ZombieHarpy", "Harpy" );
+                item = item.Replace( "ZombieGiant", "Giant" );
                 item = item.Replace( "SoldierRegular", "Soldier" );
+                item = item.Replace( "ThanatosExtraAttack", "ThanatosRocket" );
+                item = item.Replace( "AdvancedUnitCenter", "EngineeringCenter" );
+                item = item.Replace( "TrapStakes", "WoodTraps" );
+                item = item.Replace( "TrapBlades", "IronTraps" );
+                item = item.Replace( "MillWood", "Windmill" );
+                item = item.Replace( "MillIron", "AdvancedWindmill" );
+                item = item.Replace( "DeffensesLife", "DefencesLife" );
+                item = item.Replace( "ResourceCollectionCellValue", "ResourceGeneration" );
 
                 prettyValue.Append( item );
 

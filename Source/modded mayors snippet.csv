@@ -25,7 +25,7 @@ Sniper GoldCost +70%",
 Mayor_011,Y,,1,Male,1000,,20,,,,,,
 Mayor_012,Y,,1,Female,2000,20,20,,,,,,
 Mayor_013,Y,,1,Male,,,,,,,,"CommandCenter ResourcesStorage +200
-Farm ResourceCollectionCellValue -10%",
+Farm ResourceGeneration -10%",
 Mayor_014,Y,,1,Female,,,,,,,,"CommandCenter ResourcesStorage +50",
 Mayor_015,Y,,1,Male,,,,,,,,"Sniper Life +10%",
 Mayor_016,Y,,1,Female,,,,,,,,"Ranger Life +20%",
@@ -45,7 +45,7 @@ Ranger WoodCost +2",
 Mayor_024,Y,,2,Male,,,,,,,,"CommandCenter GoldGen +300
 Building EnergyNeeded +15%",
 Mayor_025,Y,,2,Female,,,,,,,,"Building EnergyNeeded -30%
-Farm ResourceCollectionCellValue -20%",
+Farm ResourceGeneration -20%",
 Mayor_026,Y,,2,Male,,,,,,,"StoneWorkshop",,
 Mayor_027,Y,,2,Female,,,,,,,,"WallStone Life +80%
 GateStone Life +80%
@@ -56,7 +56,7 @@ GateStone StoneCost +100%",
 Mayor_028,Y,,2,Male,,,,,,,,"WallWood GoldCost -100%
 WallWood WoodCost -100%
 WallWood Life -60%",
-Mayor_029,Y,,2,Female,,,,,,,,"ThanatosExtraAttack EffectRadius +150%
+Mayor_029,Y,,2,Female,,,,,,,,"ThanatosRocket EffectRadius +150%
 SpitterAttack Damage +45
 SpitterAttack EffectRadius +200%
 Spitter Life +100%",
@@ -80,7 +80,7 @@ Mayor_201,Y,,3,Female,,,,,,,,"EnergyWoodTower EnergyTransferRadius +2
 EnergyWoodTower GoldGen -5",
 Mayor_202,Y,,3,Male,,,,,,,,"Sniper RunSpeed +50%
 Sniper GoldGen -5",
-Mayor_203,Y,,3,Female,,,,,,,"AdvancedUnitCenter (2)
+Mayor_203,Y,,3,Female,,,,,,,"EngineeringCenter (2)
 OilPlatform (2)",,
 Mayor_204,Y,,3,Male,,,,,,,"AdvancedFarm (5)",,
 Mayor_205,Y,,3,Female,,,,,,,"Foundry",,
@@ -97,24 +97,24 @@ Mayor_210,Y,,4,Male,,,,,,,,"OilPlatform OilGen +25%
 OilPlatform GoldGen -20",
 Mayor_211,Y,,4,Female,,,,,,,,"PowerPlant EnergySupply +35%
 PowerPlant GoldGen -30",
-Mayor_212,Y,,4,Male,,,,,,,,"AdvancedFarm ResourceCollectionCellValue +30%
+Mayor_212,Y,,4,Male,,,,,,,,"AdvancedFarm ResourceGeneration +30%
 AdvancedFarm OilGen -1",
-Mayor_213,Y,,4,Female,,,,,,,,"Building DeffensesLife +35%",
-Mayor_214,Y,,4,Male,,,,,,,,"ThanatosExtraAttack Damage +50%",
+Mayor_213,Y,,4,Female,,,,,,,,"Building DefencesLife +35%",
+Mayor_214,Y,,4,Male,,,,,,,,"ThanatosRocket Damage +50%",
 Mayor_215,Y,,4,Female,,,,,,,,"TitanAttack Damage +50%",
 Mayor_216,Y,,4,Male,,,,,,,,"Human LifeRegenFactor +100%
 CommandCenter GoldGen -500",
 Mayor_217,Y,,4,Female,,,,,,,,"WareHouse ResourcesStorage +75
 WareHouse GoldGen -100%",
-Mayor_218,Y,,4,Male,,,,,,,,"Quarry ResourceCollectionCellValue +50%
-AdvancedQuarry ResourceCollectionCellValue +50%
+Mayor_218,Y,,4,Male,,,,,,,,"Quarry ResourceGeneration +50%
+AdvancedQuarry ResourceGeneration +50%
 Quarry GoldGen -5
 AdvancedQuarry GoldGen -10",
 Mayor_219,Y,,4,Female,,,,,,,,"WallStone Life +200%
 GateStone Life +200%
 WatchTowerStone Life +200%
 WatchTowerStone RangeBonus +3
-ZombieGiant Life +200%
+Giant Life +200%
 ZombieStrongA Life +500%
 ZombieDressedA Life +100%",
 Mayor_220,Y,,4,Male,,,,,,,,"Technology GoldCost -60%",
@@ -129,9 +129,9 @@ Mayor_303,Y,,1,Female,,,,,,,,"RangerAttack TimeAction -50%
 RangerAttack Damage +2
 RangerAttackVeteran TimeAction -60%
 RangerAttackVeteran Damage +3",
-Mayor_304,Y,,4,Male,,,,,,,,"ZombieGiantAttack Damage +160
-ZombieGiant Life +400%
-ZombieGiant RunSpeed +50%
+Mayor_304,Y,,4,Male,,,,,,,,"GiantAttack Damage +160
+Giant Life +400%
+Giant RunSpeed +50%
 CommandCenter GoldGen +3000
 CommandCenter OilGen +30",
 Mayor_305,Y,,1,Female,,,,,,,,"CommandCenter GoldGen +800
@@ -145,10 +145,10 @@ Mayor_307,Y,,3,Female,,,,,,,,"CommandCenter WatchRange +200
 ZombieStrongA Life +300%",
 Mayor_308,Y,,4,Male,,,,,,,,"Human FoodNeeded -100%
 Human BuildingTimeFactor -30%
-ZombieHarpy Life +250%
-ZombieHarpy RunSpeed +120%",
-Mayor_309,Y,,4,Female,,,,,,,,"AdvancedFarm ResourceCollectionCellValue +60%
-Farm ResourceCollectionCellValue +50%
+Harpy Life +250%
+Harpy RunSpeed +120%",
+Mayor_309,Y,,4,Female,,,,,,,,"AdvancedFarm ResourceGeneration +60%
+Farm ResourceGeneration +50%
 SpitterAttack Damage +60
 SpitterAttack EffectRadius +100%
 Spitter Life +100%",
@@ -159,13 +159,13 @@ Mayor_312,,,1,Male,,,,,,"TechFarm
 TechSniper",,,
 Mayor_313,Y,,1,Female,,,,,,,,"Ranger RunSpeed +30%",
 Mayor_314,Y,,1,Male,,,,,,,,"Sniper RunSpeed +20%",
-Mayor_315,Y,,1,Female,,,,,,,,"TrapStakes Life +300%
-TrapStakes GoldCost +30",
-Mayor_316,Y,,1,Male,,,,,,,,"TrapBlades Life +300%
-TrapBlades GoldCost +100",
+Mayor_315,Y,,1,Female,,,,,,,,"WoodTraps Life +300%
+WoodTraps GoldCost +30",
+Mayor_316,Y,,1,Male,,,,,,,,"IronTraps Life +300%
+IronTraps GoldCost +100",
 Mayor_317,,,1,Female,,,,,,,,,
-Mayor_318,Y,,3,Male,,,,,,,,"ThanatosExtraAttack TimePreAction -50%
-ThanatosExtraAttack TimeLoad -60%
+Mayor_318,Y,,3,Male,,,,,,,,"ThanatosRocket TimePreAction -50%
+ThanatosRocket TimeLoad -60%
 Thanatos OilGen -2",
 Mayor_319,Y,,2,Female,,,,,,,,"Ranger WorkersNeeded +1
 Ranger FoodNeeded -1",
@@ -195,11 +195,11 @@ Powerplant WoodCost -30
 Powerplant StoneCost -20",
 Mayor_411,Y,,4,Female,,,,,,,,"LuciferAttack Damage +100%",
 Mayor_412,,,4,Male,,,,,,,,"StoneHouse GoldGen +10%",
-Mayor_413,,,4,Female,,,,,,,,"MillIron EnergySupply +20%",
+Mayor_413,,,4,Female,,,,,,,,"AdvancedWindmill EnergySupply +20%",
 Mayor_414,,,4,Male,,,,,,,,"PowerPlant EnergySupply +20%",
-Mayor_415,,,4,Female,,,,,,,,"AdvancedFarm ResourceCollectionCellValue +20%",
+Mayor_415,,,4,Female,,,,,,,,"AdvancedFarm ResourceGeneration +20%",
 Mayor_416,,,4,Male,,,,,,,,"CommandCenter ResourcesStorage +200",
-Mayor_417,,,4,Female,,,,,,,,"Building DeffensesLife +20%",
+Mayor_417,,,4,Female,,,,,,,,"Building DefencesLife +20%",
 Mayor_418,,,4,Male,,,,,100,,,,
 Mayor_419,,,4,Female,,,,200,,,,,
 Aloooy6,,Y,4,Male,,,,,,,,"TitanAttack Damage +50%",
@@ -215,8 +215,8 @@ Devlinhawkes,,Y,3,Male,,,,,,,"PowerPlant",,
 Dominic,,Y,2,Female,,,,,,,"Ranger(5)",,
 Elginblanchard,,Y,1,Male,,,,,,,,"Soldier BuildingTimeFactor -30%
 Soldier GoldCost -30%",
-Epchou,,Y,4,Male,,,,,,,,"Quarry ResourceCollectionCellValue +30%
-AdvancedQuarry ResourceCollectionCellValue +30%",
+Epchou,,Y,4,Male,,,,,,,,"Quarry ResourceGeneration +30%
+AdvancedQuarry ResourceGeneration +30%",
 Gameguy,,Y,2,Male,,,,,,,,"Ranger Life +30%
 Soldier Life +30%
 Sniper Life +30%",
