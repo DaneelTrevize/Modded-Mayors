@@ -38,6 +38,9 @@ Historically the password was:
 from https://github.com/ash47/TheyAreBillionsModKit  
 Although this also does not decrypt the first public modded instance of ZXRules.dat encounted when starting this project.
 
+For the release 2019/07/03 15:11:00 UTC, Steam manifest ID 4346077441540232602 (TAB 1.0.10?), the password was:  
+`1692201870-110592708219527297971692201870-11059270821952729797334454FADSFASDF45345`
+
 ----
 
 Compatible 7-Zip settings are:
