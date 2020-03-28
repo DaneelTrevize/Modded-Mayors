@@ -151,6 +151,7 @@ namespace SpreadsheetGenerator
                 item = item.Replace( "TrapBlades", "IronTraps" );
                 item = item.Replace( "MillWood", "Windmill" );
                 item = item.Replace( "MillIron", "AdvancedWindmill" );
+                item = item.Replace( "MachineGun", "Wasp" );
                 item = item.Replace( "DeffensesLife", "DefencesLife" );
                 item = item.Replace( "ResourceCollectionCellValue", "ResourceGeneration" );
 
