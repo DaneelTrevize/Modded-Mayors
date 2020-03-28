@@ -7,49 +7,17 @@ using System.Xml.Linq;
 
 namespace SpreadsheetGenerator
 {
-    class SpreadsheetGenerator
+
+    class Table
     {
-        private XElement XMLfile;
         private List<string> columns;
-        private LinkedList<List<string>> mayors;
+        private LinkedList<List<string>> rows;
 
-        static void Main( string[] args )
+        internal Table( XElement properties, bool prettify )
         {
-            string XMLFilePath;
-
-            if( args.Length == 1 )
-            {
-                XMLFilePath = Path.GetFullPath( args[0] );
-            }
-            else
-            {
-                XMLFilePath = Path.GetFullPath( @"..\..\..\..\..\modded mayors snippet.xml" );
-            }
-
-            SpreadsheetGenerator generator = new SpreadsheetGenerator( XMLFilePath );
-
-            generator.WriteCSV( Path.ChangeExtension( XMLFilePath, "csv" ) );
-        }
-
-        public SpreadsheetGenerator( string XMLFilePath )
-        {
-            if( !File.Exists( XMLFilePath ) )
-            {
-                throw new ArgumentException( "XML file does not exist: " + XMLFilePath );
-            }
-
-            XMLfile = XElement.Load( XMLFilePath );
-
-            XElement properties = XMLfile.Element( "Complex" ).Element( "Properties" );
-            if( properties.Element( "Simple" ).Attribute( "value" ).Value != "Mayors" )
-            {
-                Console.Error.WriteLine( "We aren't processing the Mayors <Item> from ZXRules.dat?" );
-                return;
-            }
-
             ReadColumns( properties );
 
-            ReadRows( properties );
+            ReadRows( properties, prettify );
         }
 
         private void ReadColumns( XElement properties )
@@ -73,47 +41,90 @@ namespace SpreadsheetGenerator
             Console.WriteLine( "columns: " + columns.Count );
         }
 
-        private void ReadRows( XElement properties )
+        private void ReadRows( XElement properties, bool prettify )
         {
-            mayors = new LinkedList<List<string>>();
-            XElement rows = ( from d in properties.Elements( "Dictionary" )
+            rows = new LinkedList<List<string>>();
+            XElement tempRows = ( from d in properties.Elements( "Dictionary" )
                               where d.Attribute( "name" ).Value == "Rows"
                               select d ).Single();
 
-            foreach( var i in rows.Element( "Items" ).Elements( "Item" ) )
+            foreach( var i in tempRows.Element( "Items" ).Elements( "Item" ) )
             {
-                List<string> mayor = new List<string>( columns.Count );
+                List<string> row = new List<string>( columns.Count );
 
                 int c = 1;
-                foreach( var r in i.Element( "SingleArray").Element( "Items" ).Elements() )
+                foreach( var r in i.Element( "SingleArray" ).Element( "Items" ).Elements() )
                 {
                     if( r.Name == "Simple" )
                     {
                         string value = r.Attribute( "value" ).Value;
                         // Prettify IDBonusTechnologies, IDBonusEntities, Mods
-                        mayor.Add( c > columns.Count - 3 ? PrettyPrint( value ) : value );
+                        row.Add( prettify && c > columns.Count - 3 ? SpreadsheetGenerator.PrettyPrint( value ) : value );
                     }
                     else
                     {
-                        mayor.Add( "" );
+                        row.Add( "" );
                     }
 
                     c++;
                 }
                 /*
                 // Sanity check the Item 'dictionary' of Simple:SingleArray key:value pairings?
-                if( i.Element( "Simple" ).Attribute( "value" ).Value != mayor[0] )
+                if( i.Element( "Simple" ).Attribute( "value" ).Value != row[0] )
                 {
-                    Console.WriteLine( "Mayor ID key does not match first column value: " + mayor[0] );
+                    Console.WriteLine( "ID key does not match first column value: " + row[0] );
                 }
                 */
-                mayors.AddLast( mayor );
+                rows.AddLast( row );
             }
 
-            Console.WriteLine( "mayors: " + mayors.Count );
+            Console.WriteLine( "rows: " + rows.Count );
         }
 
-        private string PrettyPrint( string value )
+        internal void WriteCSV( string CSVFilePath, char delimiter )
+        {
+            if( File.Exists( CSVFilePath ) )
+            {
+                Console.WriteLine( "CSV file will be overwritten: " + CSVFilePath );
+            }
+
+            try
+            {
+                using StreamWriter CSVFile = File.CreateText( CSVFilePath );
+
+                foreach( var c in columns )
+                {
+                    CSVFile.Write( c );
+                    CSVFile.Write( delimiter );
+                }
+
+                CSVFile.Write( '\n' );
+
+                foreach( var r in rows )
+                {
+
+                    foreach( var c in r )
+                    {
+                        CSVFile.Write( c );
+                        CSVFile.Write( delimiter );
+                    }
+                    CSVFile.Write( '\n' );
+                }
+
+                CSVFile.Flush();
+                CSVFile.Close();
+            }
+            catch( Exception e )
+            {
+                Console.Error.WriteLine( "Problem writing CSV file: " + CSVFilePath );
+                Console.Error.WriteLine( e.Message );
+            }
+        }
+    }
+
+    class SpreadsheetGenerator
+    {
+        internal static string PrettyPrint( string value )
         {
             /*
              * Note: "Mayor_203" has "AdvancedUnitCenter (2); OilPlatform (2);" which works,
@@ -155,44 +166,83 @@ namespace SpreadsheetGenerator
             return prettyValue.ToString();
         }
 
-        private void WriteCSV( string CSVFilePath )
+        private Dictionary<string,Table> tables;
+
+        static void Main( string[] args )
         {
-            if( File.Exists( CSVFilePath ) )
+            string XMLFilePath;
+
+            if( args.Length == 1 )
             {
-                Console.WriteLine( "CSV file will be overwritten: " + CSVFilePath );
+                XMLFilePath = Path.GetFullPath( args[0] );
+            }
+            else
+            {
+                XMLFilePath = Path.GetFullPath( @"..\..\..\..\..\modded mayors snippet.xml" );
             }
 
-            try
-            {
-                using StreamWriter CSVFile = File.CreateText( CSVFilePath );
+            SpreadsheetGenerator generator = new SpreadsheetGenerator( XMLFilePath );
 
-                foreach( var c in columns )
+
+            if( generator.tables.Count > 1 )
+            {
+                string pathPrefix = Path.ChangeExtension( XMLFilePath, null );
+                foreach( string table in generator.tables.Keys )
                 {
-                    CSVFile.Write( c );
-                    CSVFile.Write( ',' );
+                    generator.WriteTable( table, pathPrefix + "_" + table + ".csv", '\t' );
                 }
-
-                CSVFile.Write( '\n' );
-
-                foreach( var m in mayors )
-                {
-
-                    foreach( var c in m )
-                    {
-                        CSVFile.Write( c );
-                        CSVFile.Write( ',' );
-                    }
-                    CSVFile.Write( '\n' );
-                }
-
-                CSVFile.Flush();
-                CSVFile.Close();
             }
-            catch( Exception e )
+            else
             {
-                Console.Error.WriteLine( "Problem writing CSV file: " + CSVFilePath );
-                Console.Error.WriteLine( e.Message );
+                generator.WriteTable( "Mayors", Path.ChangeExtension( XMLFilePath, "csv" ) );
             }
+        }
+
+        public SpreadsheetGenerator( string XMLFilePath )
+        {
+            if( !File.Exists( XMLFilePath ) )
+            {
+                throw new ArgumentException( "XML file does not exist: " + XMLFilePath );
+            }
+
+            tables = new Dictionary<string,Table>();
+
+            XElement XMLfile = XElement.Load( XMLFilePath );
+
+            if( XMLfile.Name == "Item" )    // Assume Mayors snippet
+            {
+                ReadTable( XMLfile );
+            }
+            else
+            {
+                foreach( XElement item in XMLfile.Element( "Properties" ).Element( "Dictionary" ).Element( "Items" ).Elements( "Item" ) )
+                {
+                    ReadTable( item, false );
+                }
+            }
+        }
+
+        private void ReadTable( XElement item, bool prettify = true )
+        {
+
+            string name = (string) item.Element( "Simple" ).Attribute( "value" );
+            Console.WriteLine( "Adding table: " + name );
+
+            XElement properties = item.Element( "Complex" ).Element( "Properties" );
+            Table table = new Table( properties, prettify );
+
+            tables.Add( name, table );
+        }
+
+        private void WriteTable( string name, string CSVFilePath, char delimiter = ',' )
+        {
+            Table table;
+            if( !tables.TryGetValue( name, out table ) )
+            {
+                throw new ArgumentException( "Table data not found for name: " + name );
+            }
+
+            table.WriteCSV( CSVFilePath, delimiter );
         }
     }
 }

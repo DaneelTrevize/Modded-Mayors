@@ -1,0 +1,75 @@
+ID	Order	Key	ShowAsCommand	Category	PanelPosition	CommandRequisite	BuildingRequisite	AvailableFor	BuildingTimeFactor	OnlyOneExecution	Activity	Infected	UsabeThroughWalls	HasShotEffect	BurnFactor	WoodCost	StoneCost	IronCost	OilCost	GoldCost	ActionRange	DamageType	Damage	AniLoad	TimeLoad	AniAction	AniActionReverse	TimeAction	TimePreAction	TimePostAction	TimeLoopAction	AniUnload	TimeUnload	UnLoadReverse	TimeFactorAction	AttackAreaType	MinTargetDistance	EffectRadius	MinFactorDamageInArea	FriendlyDamage	ProyectileType	ProyectileSpeed	AnimationTargetEffect	AnimationProyectileEffect	FactorPush	SoundOnExecute	SoundOnPerformEffect	SoundOnTargetEffect	
+TechWatchTowerWood	5		Y						1	Y										250																													
+TechLookoutTower	6		Y		6			WoodWorkshop	1	Y										300																													
+TechTrapStakes	7		Y		7			WoodWorkshop	1	Y										300																													
+TechWoodHouse	8		Y		1			WoodWorkshop	1	Y										350																													
+TechFarms	9		Y		2			WoodWorkshop	1	Y										400																													
+TechMarket	10		Y		3			WoodWorkshop	1	Y										450																													
+TechStoneWorkshop	11		Y		4			WoodWorkshop	1	Y										500																													
+TechSniper	12		Y		9			WoodWorkshop	1	Y										700																													
+TechBallista	13		Y		8			WoodWorkshop	1	Y										700																													
+TechTheInn	14		Y		11			WoodWorkshop	1,5	Y										1000																													
+TechTheGreatTelescope	15		Y		12			WoodWorkshop	2	Y						100	100	150	0	7000																													
+TechTheCrystalPalace	16		Y		13			WoodWorkshop	2	Y						150	200	150	0	6000																													
+TechStoneHouse	18		Y		6			StoneWorkshop	1	Y										600																													
+TechWatchTowerStone	19		Y		1			StoneWorkshop	1	Y										500																													
+TechStoneWall	20		Y		2			StoneWorkshop	1	Y										500																													
+TechMachineGun	21		Y		3			StoneWorkshop	1	Y										800																													
+TechPowerPlant	22		Y		7			StoneWorkshop	1	Y										800																													
+TechFoundry	23		Y		9			StoneWorkshop	1	Y										1000																													
+TechBank	24		Y		8			StoneWorkshop	1	Y										800																													
+TechShockingTower	25		Y		11			StoneWorkshop	1	Y										900																													
+TechTheVictorious	26		Y		12			StoneWorkshop	2	Y						0	100	200	100	7000																													
+TechTheSoldierAcademy	27		Y		13			StoneWorkshop	2	Y						200	200	100	0	7000																													
+TechTrapMine	28		Y		14			StoneWorkshop	1	Y										600																													
+TechTrapBlades	30		Y		7			Foundry	1	Y										900																													
+TechAdvancedQuarry	31		Y		1			Foundry	1	Y										1500																													
+TechIronMill	32		Y		3			Foundry	1	Y										1400																													
+TechOilPlatform	33		Y		4			Foundry	1	Y										1200																													
+TechRadarTower	34		Y		6			Foundry	1	Y										1000																													
+TechAdvancedUnitCenter	35		Y		11			Foundry	1	Y										2000																													
+TechAdvancedFarm	36		Y		2			Foundry	1	Y										1500																													
+TechExecutor	37		Y		8			Foundry	1	Y										3000																													
+TechThanatos	38		Y		12	TechAdvancedUnitCenter	AdvancedUnitCenter	Foundry	1	Y										2000																													
+TechTitan	39		Y		13	TechAdvancedUnitCenter	AdvancedUnitCenter	Foundry	1	Y										6000																													
+TechTheElectricSpire	40		Y		9			Foundry	2	Y						0	150	200	100	8000																													
+TechTheTransmutator	41		Y		14			Foundry	2	Y						0	100	200	200	8000																													
+TechMutant	42		Y		11	TechAdvancedUnitCenter	AdvancedUnitCenter	Foundry	2	Y										6000																													
+TechWareHouse	44		Y			TechUnavailable		StoneWorkshop	1	Y										400																													
+TechBunkerHouse	45					TechUnavailable		Foundry	1	Y										1400																													
+TechShuttle	46					TechUnavailable		Foundry	1	Y										2000																													
+TechRefinery	47					TechUnavailable		Foundry	1	Y										1000																													
+TechUnavailable																																																	
+ExecutorAttack	55							Executor			20		Y	Y							9	Shot	100					500							0,4	Circle		0,6	1						50		Titan_Shot		
+ShockingTowerAttack	56							ShockingTower			20		Y	Y							6	Shot	60		4000			500							0	Point									50			ShockingTowerAttack	
+BallistaAttack	57							Ballista			5		Y								9	Arrow	150		500			1000					500	Y	0	Circle		0,3			BigArrow	16			100		BallistaAttack		
+MachineGunAttack	58							MachineGun			3		Y	Y							6	Shot	20		150			100					150	Y	0,4	Point											MachineGun_Shot		
+MachineFireAttack	59							MachineFire			3		Y	Y							6	Fire	24		500			500			500		250	Y	0,1	Cone20		6	1	Y							Lucifer_Shot		
+RangerAttack	62							Ranger			1		Y								6	Arrow	10	LoadAttack	500	Attack		1000				LoadAttack	250	Y	0,2	Point					Arrow	12			8		Ranger_Shot		
+RangerAttackVeteran	63							Ranger			1		Y								6,5	Arrow	12	LoadAttack	300	Attack		500				LoadAttack	200	Y	0,2	Point					Arrow	12			12		Ranger_Shot		
+SoldierRegularAttack	64							SoldierRegular			3		Y	Y							5	Shot	16	LoadAttack	200	Attack		500				LoadAttack	100	Y	0,4	Point											Soldier_Shot		
+SoldierRegularAttackVeteran	65							SoldierRegular			3		Y	Y							5,5	Shot	26	LoadAttack	100	Attack		400				LoadAttack	60	Y	0,4	Point											Soldier_Shot		
+SniperAttack	66							Sniper			10		Y	Y							8	Shot	100	LoadAttack	500	Attack	Y	600	1600			LoadAttack	250	Y	0,1	Point									100		Sniper_Shot		
+SniperAttackVeteran	67							Sniper			10		Y	Y							8	Shot	110	LoadAttack	200	Attack	Y	300	800			LoadAttack	200	Y	0,1	Point									100		Sniper_Shot		
+ThanatosAttack	68							Thanatos			3		Y								1,5	Melee	20		1500	Fight		1000							0,5	Cone120		1	0,25								Thanatos_Fight		
+ThanatosExtraAttack	69							Thanatos			500		Y	Y							10	Shot	70	LoadAttack	1500	Attack		600	2400			LoadAttack	1000	Y	0,1	Circle	3	1,8	0,2		Missile	12			100		Thanatos_Shot	Explosion_Fire	
+LuciferAttack	70							Lucifer			10			Y	0,7						3,5	Fire	24	LoadAttack	500	Attack		500			500	LoadAttack	250	Y	0,1	Cone20		3,5	1	Y							Lucifer_Shot		
+TitanAttack	71							Titan			20		Y	Y							9	Shot	36	LoadAttack	500	Attack		200				LoadAttack	250	Y	0,4	Circle		0,8	1								Titan_Shot		
+MutantAttack	72							Mutant			20	Y	Y								2	ZombieClaw	30			Attack	Y	500			1000				0,5	Arc120		2,6	1						100	Mutant_Claws			
+HAAttack	73							HA			20		Y	Y							6	Shot	50	LoadAttack	500	Attack		700	700			LoadAttack	250	Y	0	Circle		0,2							100		Sniper_Shot		
+HBAttack	74							HB			4		Y	Y							4,5	Shot	15	LoadAttack	300	Attack		200			800	LoadAttack	150	Y	0,1	Point									100		HB_Shot		
+ThrowGrenade	75										100		Y								8	Shot	250		200			200								Circle		3	0,2		Grenade	12			100		Thanatos_Shot	Explosion_Fire	
+ZombieWeakAttack	79							ZombieWeakA			1	Y	Y								0,5	ZombieClaw	6			Attack		1000							0,5	Point										ZombieRoarMedium			
+ZombieWeakAAttack	80							ZombieWeakA			1	Y	Y								0,5	ZombieClaw	6			Attack		1000							0,5	Point										ZombieRoarMedium			
+ZombieWeakBAttack	81							ZombieWeakB			1	Y	Y								0,5	ZombieClaw	6			Attack		1000							0,5	Point										ZombieRoarMedium			
+ZombieWeakCAttack	82							ZombieWeakC			1	Y	Y								0,5	ZombieClaw	6			Attack		1000							0,5	Point										ZombieRoarMedium			
+ZombieWorkerAAttack	83							ZombieWorkerA			1	Y	Y								0,6	ZombieClaw	9			Attack		900							0,5	Point										ZombieRoarMedium			
+ZombieWorkerBAttack	84							ZombieWorkerB			1	Y	Y								0,6	ZombieClaw	9			Attack		900							0,5	Point										ZombieRoarWoman			
+ZombieMediumAAttack	85							ZombieMediumA			2	Y	Y								0,6	ZombieClaw	10			Attack		1000							0,5	Point										ZombieRoarDressed			
+ZombieMediumBAttack	86							ZombieMediumB			2	Y	Y								0,6	ZombieClaw	10			Attack		1000							0,5	Point										ZombieRoarWoman			
+ZombieDressedAAttack	87							ZombieDressedA			3	Y	Y								0,6	ZombieClaw	12			Attack		800							0,5	Point										ZombieRoarDressed			
+ZombieStrongAAttack	88							ZombieStrongA			10	Y	Y								0,7	ZombieClaw	40			Attack		1000							0,5	Point										ZombieRoarStrong			
+ZombieHarpyAttack	89							ZombieHarpy			10	Y	Y								0,8	ZombieClaw	30			Attack		300			600				0,5	Point										ZombieRoarWoman			
+ZombieGiantAttack	90							ZombieGiant			20	Y	Y								3	ZombieClaw	160	LoadAttack	300	Attack		800				LoadAttack	200	Y	0,2	Arc120		3,5		Y					150	ZombieGiantAttack			
+ZombieVenomAttack	91							ZombieVenom			10	Y	Y								4	ZombieVenom	30			Attack		1400		600					0,3	Circle		0,75	1		Venom	4				ZombieVenomSpit1			
+ZombieMutantAttack	92							ZombieLeader			200	Y	Y								2	ZombieClaw	30			Attack	Y	500			1000				0,5	Arc120		2,6	1						100	Mutantinfected_Claws	ZombieRoarStrong		

@@ -1,0 +1,14 @@
+ID	WeatherEffect	Mods	
+Cold		Building EnergyNeeded * 1,15;	
+VeryCold		Building EnergyNeeded * 1,3;	
+Icy		Building EnergyNeeded * 1,5;	
+InfectedLethargic		Zombie ActivityAwarenessFactor * 0,5;	
+InfectedActive		Zombie ActivityAwarenessFactor * 1,3;	
+InfectedNervous		Zombie ActivityAwarenessFactor * 1,6;	
+SlowTerrain		Unit RunSpeed * 0,8;	
+FarSight		Unit WatchRange * 1,1;	
+VeryFarSight		Unit WatchRange * 1,3;	
+FertileLand		HunterCottage ResourceCollectionCellValue*1,3; Farm ResourceCollectionCellValue*1,3; AdvancedFarm ResourceCollectionCellValue *1,3;	
+FertileSea		FishermanCottage ResourceCollectionCellValue*1,3;	
+Snowy	Snowy		
+Rainy	Rainy		
