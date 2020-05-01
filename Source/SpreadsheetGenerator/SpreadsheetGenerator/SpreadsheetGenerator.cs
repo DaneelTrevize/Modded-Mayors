@@ -141,6 +141,7 @@ namespace SpreadsheetGenerator
             {
                 string item = list[i].Trim();
 
+                item = item.Replace( ',', '\n' );
                 item = item.Replace( "ZombieVenom", "Spitter" );
                 item = item.Replace( "ZombieHarpy", "Harpy" );
                 item = item.Replace( "ZombieGiant", "Giant" );
@@ -175,7 +176,7 @@ namespace SpreadsheetGenerator
 
             if( args.Length == 1 )
             {
-                XMLFilePath = Path.GetFullPath( args[0] );
+                XMLFilePath = Path.GetFullPath( Environment.ExpandEnvironmentVariables( args[0] ) );
             }
             else
             {
@@ -190,7 +191,7 @@ namespace SpreadsheetGenerator
                 string pathPrefix = Path.ChangeExtension( XMLFilePath, null );
                 foreach( string table in generator.tables.Keys )
                 {
-                    generator.WriteTable( table, pathPrefix + "_" + table + ".csv", '\t' );
+                    generator.WriteTable( table, pathPrefix + "_" + table + ".tsv", '\t' );
                 }
             }
             else
