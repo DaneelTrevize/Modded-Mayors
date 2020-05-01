@@ -13,11 +13,11 @@ namespace SpreadsheetGenerator
         private List<string> columns;
         private LinkedList<List<string>> rows;
 
-        internal Table( XElement properties, bool prettify )
+        internal Table( XElement properties )
         {
             ReadColumns( properties );
 
-            ReadRows( properties, prettify );
+            ReadRows( properties );
         }
 
         private void ReadColumns( XElement properties )
@@ -41,7 +41,7 @@ namespace SpreadsheetGenerator
             Console.WriteLine( "columns: " + columns.Count );
         }
 
-        private void ReadRows( XElement properties, bool prettify )
+        private void ReadRows( XElement properties )
         {
             rows = new LinkedList<List<string>>();
             XElement tempRows = ( from d in properties.Elements( "Dictionary" )
@@ -59,7 +59,8 @@ namespace SpreadsheetGenerator
                     {
                         string value = r.Attribute( "value" ).Value;
                         // Prettify IDBonusTechnologies, IDBonusEntities, Mods
-                        row.Add( prettify && c > columns.Count - 3 ? SpreadsheetGenerator.PrettyPrint( value ) : value );
+                        //row.Add( c > columns.Count - 3 ? SpreadsheetGenerator.PrettyPrint( value ) : value );   // '"' + value + '"'
+                        row.Add( SpreadsheetGenerator.PrettyPrint( value ) );
                     }
                     else
                     {
@@ -136,12 +137,14 @@ namespace SpreadsheetGenerator
 
             StringBuilder prettyValue = new StringBuilder();
 
-            prettyValue.Append( '"' );
+            if( list.Length > 1 )
+            {
+                prettyValue.Append( '"' );
+            }
             for( int i = 0; i < list.Length; i++ )
             {
                 string item = list[i].Trim();
 
-                item = item.Replace( ',', '\n' );
                 item = item.Replace( "ZombieVenom", "Spitter" );
                 item = item.Replace( "ZombieHarpy", "Harpy" );
                 item = item.Replace( "ZombieGiant", "Giant" );
@@ -163,7 +166,10 @@ namespace SpreadsheetGenerator
                     prettyValue.Append( '\n' );
                 }
             }
-            prettyValue.Append( '"' );
+            if( list.Length > 1 )
+            {
+                prettyValue.Append( '"' );
+            }
 
             return prettyValue.ToString();
         }
@@ -219,19 +225,19 @@ namespace SpreadsheetGenerator
             {
                 foreach( XElement item in XMLfile.Element( "Properties" ).Element( "Dictionary" ).Element( "Items" ).Elements( "Item" ) )
                 {
-                    ReadTable( item, false );
+                    ReadTable( item );
                 }
             }
         }
 
-        private void ReadTable( XElement item, bool prettify = true )
+        private void ReadTable( XElement item )
         {
 
             string name = (string) item.Element( "Simple" ).Attribute( "value" );
             Console.WriteLine( "Adding table: " + name );
 
             XElement properties = item.Element( "Complex" ).Element( "Properties" );
-            Table table = new Table( properties, prettify );
+            Table table = new Table( properties );
 
             tables.Add( name, table );
         }

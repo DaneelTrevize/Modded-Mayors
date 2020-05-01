@@ -8,7 +8,7 @@ Sniper GoldCost -50%",
 Mayor_003,Y,,1,Male,,,,,,,,"Soldier BuildingTimeFactor -80%
 Soldier Life -90%
 Soldier GoldCost -60%",
-Mayor_004,Y,,1,Female,-500,,,,,,,"CommandCenter GoldGen +100",
+Mayor_004,Y,,1,Female,-500,,,,,,,CommandCenter GoldGen +100,
 Mayor_005,Y,,1,Male,,,,,,,,"Sawmill WoodGen +5
 Sawmill EnergyNeeded +150%",
 Mayor_006,Y,,1,Female,,,,,,,,"Quarry StoneGen +1
@@ -26,14 +26,14 @@ Mayor_011,Y,,1,Male,1000,,20,,,,,,
 Mayor_012,Y,,1,Female,2000,20,20,,,,,,
 Mayor_013,Y,,1,Male,,,,,,,,"CommandCenter ResourcesStorage +200
 Farm ResourceGeneration -10%",
-Mayor_014,Y,,1,Female,,,,,,,,"CommandCenter ResourcesStorage +50",
-Mayor_015,Y,,1,Male,,,,,,,,"Sniper Life +10%",
-Mayor_016,Y,,1,Female,,,,,,,,"Ranger Life +20%",
-Mayor_017,Y,,1,Male,,,,,,,,"Soldier Life +30%",
+Mayor_014,Y,,1,Female,,,,,,,,CommandCenter ResourcesStorage +50,
+Mayor_015,Y,,1,Male,,,,,,,,Sniper Life +10%,
+Mayor_016,Y,,1,Female,,,,,,,,Ranger Life +20%,
+Mayor_017,Y,,1,Male,,,,,,,,Soldier Life +30%,
 Mayor_018,Y,,1,Female,,,,,,,,"CommandCenter GoldGen +50
 CommandCenter FoodSupply +50",
-Mayor_019,Y,,1,Male,,,,,,,,"Technology GoldCost -20%",
-Mayor_020,Y,,1,Female,,,,,,,"WoodWorkshop",,
+Mayor_019,Y,,1,Male,,,,,,,,Technology GoldCost -20%,
+Mayor_020,Y,,1,Female,,,,,,,WoodWorkshop,,
 Mayor_021,Y,,1,Male,,,,,,,,"Soldier RunSpeed +30%
 Soldier IronCost +1",
 Mayor_022,Y,,1,Female,,,,,,,,"SniperAttack ActionRange +3
@@ -46,7 +46,7 @@ Mayor_024,Y,,2,Male,,,,,,,,"CommandCenter GoldGen +300
 Building EnergyNeeded +15%",
 Mayor_025,Y,,2,Female,,,,,,,,"Building EnergyNeeded -30%
 Farm ResourceGeneration -20%",
-Mayor_026,Y,,2,Male,,,,,,,"StoneWorkshop",,
+Mayor_026,Y,,2,Male,,,,,,,StoneWorkshop,,
 Mayor_027,Y,,2,Female,,,,,,,,"WallStone Life +80%
 GateStone Life +80%
 WallStone GoldCost +200%
@@ -82,12 +82,12 @@ Mayor_202,Y,,3,Male,,,,,,,,"Sniper RunSpeed +50%
 Sniper GoldGen -5",
 Mayor_203,Y,,3,Female,,,,,,,"EngineeringCenter (2)
 OilPlatform (2)",,
-Mayor_204,Y,,3,Male,,,,,,,"AdvancedFarm (5)",,
-Mayor_205,Y,,3,Female,,,,,,,"Foundry",,
+Mayor_204,Y,,3,Male,,,,,,,AdvancedFarm (5),,
+Mayor_205,Y,,3,Female,,,,,,,Foundry,,
 Mayor_206,Y,,4,Male,,,,,,,,"StoneHouse GoldGen +40%
 StoneHouse WorkersSupply +2
 StoneHouse EnergyNeeded +50%",
-Mayor_207,Y,,4,Female,,,,,,,,"CommandCenter GoldGen +1000",
+Mayor_207,Y,,4,Female,,,,,,,,CommandCenter GoldGen +1000,
 Mayor_208,Y,,4,Male,,,,,,,,"Structure BuildingTimeFactor -25%
 Building EnergyNeeded -20%
 Structure GoldCost +15%",
@@ -99,9 +99,9 @@ Mayor_211,Y,,4,Female,,,,,,,,"PowerPlant EnergySupply +35%
 PowerPlant GoldGen -30",
 Mayor_212,Y,,4,Male,,,,,,,,"AdvancedFarm ResourceGeneration +30%
 AdvancedFarm OilGen -1",
-Mayor_213,Y,,4,Female,,,,,,,,"Building DefencesLife +35%",
-Mayor_214,Y,,4,Male,,,,,,,,"ThanatosRocket Damage +50%",
-Mayor_215,Y,,4,Female,,,,,,,,"TitanAttack Damage +50%",
+Mayor_213,Y,,4,Female,,,,,,,,Building DefencesLife +35%,
+Mayor_214,Y,,4,Male,,,,,,,,ThanatosRocket Damage +50%,
+Mayor_215,Y,,4,Female,,,,,,,,TitanAttack Damage +50%,
 Mayor_216,Y,,4,Male,,,,,,,,"Human LifeRegenFactor +100%
 CommandCenter GoldGen -500",
 Mayor_217,Y,,4,Female,,,,,,,,"WareHouse ResourcesStorage +75
@@ -117,12 +117,12 @@ WatchTowerStone RangeBonus +3
 Giant Life +200%
 ZombieStrongA Life +500%
 ZombieDressedA Life +100%",
-Mayor_220,Y,,4,Male,,,,,,,,"Technology GoldCost -60%",
+Mayor_220,Y,,4,Male,,,,,,,,Technology GoldCost -60%,
 Mayor_221,Y,,4,Female,,,,,,,,"Structure WorkersNeeded -75%
 StoneHouse WorkersSupply -3",
 Mayor_300,Y,,4,Male,,,,,,,,"LuciferAttack TimeAction -60%
 Lucifer OilGen -1",
-Mayor_301,Y,,2,Female,,,,,,,,"Dwelling GoldGen +10%",
+Mayor_301,Y,,2,Female,,,,,,,,Dwelling GoldGen +10%,
 Mayor_302,Y,,3,Male,,,,,,,,"Dwelling GoldGen +20%
 Dwelling EnergyNeeded +20%",
 Mayor_303,Y,,1,Female,,,,,,,,"RangerAttack TimeAction -50%
@@ -157,8 +157,8 @@ TechLookoutTower",,,
 Mayor_311,,,1,Female,,,,,,,,,
 Mayor_312,,,1,Male,,,,,,"TechFarm
 TechSniper",,,
-Mayor_313,Y,,1,Female,,,,,,,,"Ranger RunSpeed +30%",
-Mayor_314,Y,,1,Male,,,,,,,,"Sniper RunSpeed +20%",
+Mayor_313,Y,,1,Female,,,,,,,,Ranger RunSpeed +30%,
+Mayor_314,Y,,1,Male,,,,,,,,Sniper RunSpeed +20%,
 Mayor_315,Y,,1,Female,,,,,,,,"WoodTraps Life +300%
 WoodTraps GoldCost +30",
 Mayor_316,Y,,1,Male,,,,,,,,"IronTraps Life +300%
@@ -173,7 +173,7 @@ Mayor_400,Y,,2,Male,,,,,,,,"Sniper WorkersNeeded +1
 Sniper FoodNeeded -1",
 Mayor_401,,,2,Female,,,,,,,,"Soldier WorkersNeeded +1
 Soldier FoodNeeded -1",
-Mayor_402,Y,,2,Male,,,,,,,"TheAcademy","CommandCenter GoldGen +500
+Mayor_402,Y,,2,Male,,,,,,,TheAcademy,"CommandCenter GoldGen +500
 ZombieWeakA Life +465
 ZombieWeakB Life +465
 ZombieWeakC Life +465",
@@ -187,32 +187,32 @@ Mayor_406,Y,,3,Male,,,,,,,,"TitanAttack TimeAction -30%
 Titan OilGen -2",
 Mayor_407,,,3,Female,,,,,,,,"Sniper FoodNeeded -1
 Sniper IronCost +10",
-Mayor_408,Y,,3,Male,,,,,,,"AdvancedQuarry(5)",,
-Mayor_409,Y,,3,Female,,,,,,,"PowerPlant(3)",,
+Mayor_408,Y,,3,Male,,,,,,,AdvancedQuarry(5),,
+Mayor_409,Y,,3,Female,,,,,,,PowerPlant(3),,
 Mayor_410,,,3,Male,,,,,,,,"Powerplant WoodGen -5
 Powerplant GoldCost -400
 Powerplant WoodCost -30
 Powerplant StoneCost -20",
-Mayor_411,Y,,4,Female,,,,,,,,"LuciferAttack Damage +100%",
-Mayor_412,,,4,Male,,,,,,,,"StoneHouse GoldGen +10%",
-Mayor_413,,,4,Female,,,,,,,,"AdvancedWindmill EnergySupply +20%",
-Mayor_414,,,4,Male,,,,,,,,"PowerPlant EnergySupply +20%",
-Mayor_415,,,4,Female,,,,,,,,"AdvancedFarm ResourceGeneration +20%",
-Mayor_416,,,4,Male,,,,,,,,"CommandCenter ResourcesStorage +200",
-Mayor_417,,,4,Female,,,,,,,,"Building DefencesLife +20%",
+Mayor_411,Y,,4,Female,,,,,,,,LuciferAttack Damage +100%,
+Mayor_412,,,4,Male,,,,,,,,StoneHouse GoldGen +10%,
+Mayor_413,,,4,Female,,,,,,,,AdvancedWindmill EnergySupply +20%,
+Mayor_414,,,4,Male,,,,,,,,PowerPlant EnergySupply +20%,
+Mayor_415,,,4,Female,,,,,,,,AdvancedFarm ResourceGeneration +20%,
+Mayor_416,,,4,Male,,,,,,,,CommandCenter ResourcesStorage +200,
+Mayor_417,,,4,Female,,,,,,,,Building DefencesLife +20%,
 Mayor_418,,,4,Male,,,,,100,,,,
 Mayor_419,,,4,Female,,,,200,,,,,
-Aloooy6,,Y,4,Male,,,,,,,,"TitanAttack Damage +50%",
-Allgoodchase,,Y,2,Male,,,,,,,"Soldier(4)",,
-Akniffin,,Y,2,Male,,,,,,,"AdvancedQuarry",,
-Arlinkaaa,,Y,1,Female,,,,,,,,"WareHouse ResourcesStorage +25",
-Bdang,,Y,4,Male,,,,,,,"Bank",,
-Boshaw,,Y,4,Male,,,,,,,"Soldier(12)",,
-Caxinite,,Y,4,Male,,,,,,,,"Building EnergyNeeded -20%",
-Christian,,Y,2,Male,,,,,,"TechStoneWall",,,
-Darnold,,Y,2,Male,,,,,,,"Farm(2)",,
-Devlinhawkes,,Y,3,Male,,,,,,,"PowerPlant",,
-Dominic,,Y,2,Female,,,,,,,"Ranger(5)",,
+Aloooy6,,Y,4,Male,,,,,,,,TitanAttack Damage +50%,
+Allgoodchase,,Y,2,Male,,,,,,,Soldier(4),,
+Akniffin,,Y,2,Male,,,,,,,AdvancedQuarry,,
+Arlinkaaa,,Y,1,Female,,,,,,,,WareHouse ResourcesStorage +25,
+Bdang,,Y,4,Male,,,,,,,Bank,,
+Boshaw,,Y,4,Male,,,,,,,Soldier(12),,
+Caxinite,,Y,4,Male,,,,,,,,Building EnergyNeeded -20%,
+Christian,,Y,2,Male,,,,,,TechStoneWall,,,
+Darnold,,Y,2,Male,,,,,,,Farm(2),,
+Devlinhawkes,,Y,3,Male,,,,,,,PowerPlant,,
+Dominic,,Y,2,Female,,,,,,,Ranger(5),,
 Elginblanchard,,Y,1,Male,,,,,,,,"Soldier BuildingTimeFactor -30%
 Soldier GoldCost -30%",
 Epchou,,Y,4,Male,,,,,,,,"Quarry ResourceGeneration +30%
@@ -223,19 +223,19 @@ Sniper Life +30%",
 Garrettpearson,,Y,1,Male,,,,,,,,"Ranger WatchRange +1
 RangerAttack ActionRange +1
 RangerAttackVeteran ActionRange +1",
-Georgeedward,,Y,4,Male,,,,,,,"Sniper(7)",,
-Iang,,Y,3,Male,,,,,,,"AdvancedFarm",,
-Internalurge,,Y,3,Male,,,,,,,,"LuciferAttack Damage +50%",
-Jackcaster,,Y,2,Female,,,,,,,,"Human LifeRegenFactor +50%",
-Jonassonnr,,Y,3,Male,,,,,,,"Soldier(6)",,
-Jonathanhutsebau,,Y,2,Male,,,,,,,,"Sniper RunSpeed +50%",
+Georgeedward,,Y,4,Male,,,,,,,Sniper(7),,
+Iang,,Y,3,Male,,,,,,,AdvancedFarm,,
+Internalurge,,Y,3,Male,,,,,,,,LuciferAttack Damage +50%,
+Jackcaster,,Y,2,Female,,,,,,,,Human LifeRegenFactor +50%,
+Jonassonnr,,Y,3,Male,,,,,,,Soldier(6),,
+Jonathanhutsebau,,Y,2,Male,,,,,,,,Sniper RunSpeed +50%,
 Kregarddayz,,Y,1,Male,,,,,,,,"Sawmill WorkersNeeded -2
 Quarry WorkersNeeded -2",
 Linkthefox,,Y,3,Male,,30,30,30,30,,,,
-Lolzman,,Y,1,Male,,,,,,,,"Technology GoldCost -10%",
+Lolzman,,Y,1,Male,,,,,,,,Technology GoldCost -10%,
 Zacmoore,,Y,1,Male,,20,20,,,,,,
-Saint,,Y,2,Female,,,,,,,,"Building EnergyNeeded -10%",
+Saint,,Y,2,Female,,,,,,,,Building EnergyNeeded -10%,
 Sweene,,Y,3,Male,,,,,,,"WallStone(20)
 GateStone(2)",,
-Visperas,,Y,3,Male,,,,,,,"Sniper(4)",,
-Williamamwermer,,Y,1,Male,,,,,,,,"CommandCenter FoodSupply +30",
+Visperas,,Y,3,Male,,,,,,,Sniper(4),,
+Williamamwermer,,Y,1,Male,,,,,,,,CommandCenter FoodSupply +30,

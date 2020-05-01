@@ -34,10 +34,10 @@ StoneGoldFactor	float	2				Gold value for stone X * PriceResourceBase
 IronGoldFactor	float	4				Gold value for iron X * PriceResourceBase	
 OilGoldFactor	float	8				Gold value for oil: X * PriceResourceBase	
 DefaultNFramesToActivateTraps	int	30				Traps will be activated every N frames (60 frames = 1s)	
-TrapStakesDamage	int	5				Trap Stakes will cause this damage.	
-TrapStakesOwnDamage	int	1				Trap Stakes will receive this damage on activation.	
-TrapBladesDamage	int	10				Trap Blades will cause this damage.	
-TrapBladesOwnDamage	int	1				Trap Blades will receive this damage on activation.	
+WoodTrapsDamage	int	5				Trap Stakes will cause this damage.	
+WoodTrapsOwnDamage	int	1				Trap Stakes will receive this damage on activation.	
+IronTrapsDamage	int	10				Trap Blades will cause this damage.	
+IronTrapsOwnDamage	int	1				Trap Blades will receive this damage on activation.	
 TrapMineDamage	int	500				Trap Mine default damage.	
 TrapMineRadius	float	1,9				Trap Mines action radius in cells.	
 ExplosiveBarrelDamage	int	1000				Explosive Barrel default damage.	
