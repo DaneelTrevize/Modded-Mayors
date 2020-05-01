@@ -15,8 +15,8 @@ Or have manually backed up your original file before replacing it, keeping in mi
 
 # List of Modded Mayors
 
-A [recently generated spreadsheet can be found here](https://raw.githubusercontent.com/DaneelTrevize/Modded-Mayors/master/Source/modded%20mayors%20snippet.csv).  
-This repo also contains a program to regenerate this spreadsheet from the XML file found adjacent.
+A [recently generated spreadsheet can be found here](https://github.com/DaneelTrevize/Modded-Mayors/blob/master/Source/modded%20mayors%20snippet.csv).  
+This repo also contains a program to regenerate this spreadsheet from the XML file found adjacent to it.
 
 An invalid older spreadsheet was obtained from `https://docs.google.com/spreadsheets/d/1ZpQz5TmhUMwM26UkHeM6yMczYDfG0VEe0uoJPj4sxcg/edit#gid=0`. Original author(s) unknown.
 
