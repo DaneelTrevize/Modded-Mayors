@@ -27,10 +27,12 @@ An invalid older spreadsheet was obtained from `https://docs.google.com/spreadsh
 The original version of these Mayor changes was made by Alvicate.  
 Since their last release of those works, the game has been updated and the modded file was no longer compatible. This project is to access the decrypted version of those changes, merge them with compatible current game files, and re-encrypt them as the game requires.
 
-The current password for the public beta branch is:  
-`-167547859615307867291835083137-167547859615307867291835083137334454FADSFASDF45345`
+1.0.18 password for the main Steam branch is:  
+`-9495552146701228917317764-9495552146701228917317764334454FADSFASDF45345`
 
-The current password for the main Steam branch is:  
+Previous password for the public beta branch is:  
+`-167547859615307867291835083137-167547859615307867291835083137334454FADSFASDF45345`  
+Previous password for the main Steam branch is:  
 `-97961337-1138788515-358272088-97961337-1138788515-358272088334454FADSFASDF45345`
 
 Historically the password was:  
