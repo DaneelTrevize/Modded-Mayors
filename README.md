@@ -27,6 +27,9 @@ An invalid older spreadsheet was obtained from `https://docs.google.com/spreadsh
 The original version of these Mayor changes was made by Alvicate.  
 Since their last release of those works, the game has been updated and the modded file was no longer compatible. This project is to access the decrypted version of those changes, merge them with compatible current game files, and re-encrypt them as the game requires.
 
+1.1.3 password for the main Steam branch is:  
+`2025656990-254722460-3866451362025656990-254722460-386645136334454FADSFASDF45345`
+
 1.0.19 password for the main Steam branch is:  
 `1435525863-7828404698500055911435525863-782840469850005591334454FADSFASDF45345`
 
